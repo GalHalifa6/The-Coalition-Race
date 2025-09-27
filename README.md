@@ -22,11 +22,13 @@ Simulation runs step-by-step until a coalition forms or all parties join.
 Output generated in JSON format for analysis and visualization.
 
 # 🏗️ Project Structure
-├── include/         # Header files (Agent.h, Graph.h, Party.h, etc.)
-├── src/             # Source files (Agent.cpp, Graph.cpp, Simulation.cpp, etc.)
-├── bin/             # Build output (empty before compilation)
-├── Makefile         # Build instructions
-└── visualization.py # Python script for visualizing coalition graphs
+
+
+├── include/          Header files (Agent.h, Graph.h, Party.h, etc.)
+├── src/              Source files (Agent.cpp, Graph.cpp, Simulation.cpp, etc.)
+├── bin/              Build output (empty before compilation)
+├── Makefile          Build instructions
+└── visualization.py  Python script for visualizing coalition graphs
 
 
 # 🛠️ Build & Run
