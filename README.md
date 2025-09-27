@@ -4,11 +4,13 @@ This project implements a simulation of a coalition race in a fictional democrac
 Agents from different political parties negotiate and attempt to form coalitions, with the goal of reaching 61 mandates as quickly as possible.
 The project was developed as part of the Extended Systems Programming Lab (SPL231) at BGU.
 
+
 # 🎯 Goals
 Gain experience with C++ OOP design and implementation.
 Work with graphs, agents, and policies to simulate political processes.
 Apply memory management best practices, including the Rule of 5.
 Learn to parse and generate JSON configuration/output files.
+
 
 # ⚙️ Features
 Parties represented as vertices in a graph.
@@ -26,6 +28,7 @@ Output generated in JSON format for analysis and visualization.
 ├── Makefile         # Build instructions
 └── visualization.py # Python script for visualizing coalition graphs
 
+
 # 🛠️ Build & Run
 # Prerequisites
 Linux environment
@@ -33,16 +36,19 @@ g++ with multilib support
 Python 3 with networkx and matplotlib (for visualization)
 Valgrind (for memory check)
 
+
 # Install on Ubuntu/Debian:
 sudo apt update
 sudo apt install g++ make valgrind python3-pip
 pip3 install networkx matplotlib
+
 
 # Build
 make
 
 # Run
 ./bin/cRace <config_file.json>
+
 Example:
 ./bin/cRace examples/01.json
 
